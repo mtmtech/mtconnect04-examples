@@ -42,7 +42,7 @@
 
 #define IS_SRVC_CHANGED_CHARACT_PRESENT 0                                           /**< Include or not the service_changed characteristic. if not enabled, the server's database cannot be changed for the lifetime of the device*/
 
-#define DEVICE_NAME                     "MtConnect03 motion"                        /**< Name of device. Will be included in the advertising data. */
+#define DEVICE_NAME                     "MtConnect04 motion"                        /**< Name of device. Will be included in the advertising data. */
 
 #define APP_ADV_INTERVAL                60                                         /**< The advertising interval (in units of 0.625 ms. This value corresponds to 40 ms). */
 #define APP_ADV_TIMEOUT_IN_SECONDS      0                                         /**< The advertising timeout (in units of seconds). */
