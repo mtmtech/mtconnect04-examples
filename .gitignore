@@ -1,9 +1,9 @@
 **/_build/*
 **/RTE/*
 !**/_build/*.hex
-arm/*
-!arm/*.uvproj
-!arm/*.uvopt
+**/arm*/*
+!arm*/**/*.uvproj
+!arm*/**/*.uvopt
 gcc/*
 !gcc/*.bat
 !gcc/Makefile
@@ -15,11 +15,6 @@ iar/*
 *.log
 *.bak
 *.ini
-!arm/*.uvprojx
-!arm/*.uvoptx
+!arm*/**/*.uvprojx
+!arm*/**/*.uvoptx
 **/Backup/*
-**/arm5/*
-!arm5/*.uvprojx
-!arm5/*.uvoptx
-!arm5/*.uvproj
-!arm5/*.uvopt
